@@ -12153,7 +12153,7 @@ end
 IYMouse.Move:Connect(checkTT)
 
 task.spawn(function()
-	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/NugzyF/IT-Paste-/master/Version'))() end) then
+	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/NugzyF/IY-Paste-/master/Version'))() end) then
 		if ver ~= Version then
 			notify('Outdated','Get the new version at infinite.yiff.gg')
 		end
