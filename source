@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-	error("Infinite Yield is already running!",0)
+	error("NugzyYield is allready running!",0)
 	return
 end
 
@@ -7,12 +7,12 @@ pcall(function() getgenv().IY_LOADED = true end)
 
 if not game:IsLoaded() then
 	local notLoaded = Instance.new("Message", game:GetService("CoreGui"))
-	notLoaded.Text = 'Infinite Yield is waiting for the game to load'
+	notLoaded.Text = 'NugzyYield Is waiting for the game...'
 	game.Loaded:Wait()
 	notLoaded:Destroy()
 end
 
-ver = '5.5'
+ver = '0.1'
 
 Players = game:GetService("Players")
 
@@ -217,7 +217,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Infinite Yield FE v"..ver
+Title.Text = "NugzyYield v"..ver
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.ZIndex = 10
 table.insert(shade1,Title)
@@ -245,7 +245,7 @@ Cmdbar.TextXAlignment = Enum.TextXAlignment.Left
 Cmdbar.TextColor3 = Color3.new(1, 1, 1)
 Cmdbar.Text = ""
 Cmdbar.ZIndex = 10
-Cmdbar.PlaceholderText = "Command Bar"
+Cmdbar.PlaceholderText = "Enter CMDS"
 
 CMDsF.Name = "CMDs"
 CMDsF.Parent = Holder
@@ -403,7 +403,7 @@ StayOpen.Position = UDim2.new(0, 5, 0, 30)
 StayOpen.Size = UDim2.new(1, -10, 0, 20)
 StayOpen.Font = Enum.Font.SourceSans
 StayOpen.TextSize = 14
-StayOpen.Text = "Keep Menu Open"
+StayOpen.Text = "Dont Close the menu!"
 StayOpen.TextColor3 = Color3.new(1, 1, 1)
 StayOpen.TextXAlignment = Enum.TextXAlignment.Left
 StayOpen.ZIndex = 10
@@ -447,7 +447,7 @@ EventBind.Parent = SettingsHolder
 Plugins = makeSettingsButton("Manage Plugins","rbxassetid://5147695474",743)
 Plugins.Position = UDim2.new(0, 5, 0, 175)
 Plugins.Size = UDim2.new(1, -10, 0, 25)
-Plugins.Name = "Plugins"
+Plugins.Name = "Plugins (This trashy)"
 Plugins.Parent = SettingsHolder
 
 Example.Name = "Example"
@@ -480,7 +480,7 @@ Title_2.BorderSizePixel = 0
 Title_2.Size = UDim2.new(0, 250, 0, 20)
 Title_2.Font = Enum.Font.SourceSans
 Title_2.TextSize = 14
-Title_2.Text = "Notification Title"
+Title_2.Text = "NOTIFY"
 Title_2.TextColor3 = Color3.new(1, 1, 1)
 Title_2.ZIndex = 10
 table.insert(shade2,Title_2)
@@ -494,7 +494,7 @@ Text_2.Position = UDim2.new(0, 5, 0, 25)
 Text_2.Size = UDim2.new(0, 240, 0, 75)
 Text_2.Font = Enum.Font.SourceSans
 Text_2.TextSize = 16
-Text_2.Text = "Notification Text"
+Text_2.Text = "NOTIFY"
 Text_2.TextColor3 = Color3.new(1, 1, 1)
 Text_2.TextWrapped = true
 Text_2.ZIndex = 10
@@ -599,7 +599,7 @@ Credits.Position = UDim2.new(0, 0, 0.9, 30)
 Credits.Size = UDim2.new(0, 250, 0, 20)
 Credits.Font = Enum.Font.SourceSansLight
 Credits.FontSize = Enum.FontSize.Size18
-Credits.Text = "Edge // Zwolf // Moon // Toon"
+Credits.Text = "Nugzy"
 Credits.TextColor3 = Color3.new(1, 1, 1)
 Credits.ZIndex = 10
 
@@ -820,7 +820,7 @@ Cmdbar_2.TextXAlignment = Enum.TextXAlignment.Left
 Cmdbar_2.TextColor3 = Color3.new(1, 1, 1)
 Cmdbar_2.Text = ""
 Cmdbar_2.ZIndex = 10
-Cmdbar_2.PlaceholderText = "Command"
+Cmdbar_2.PlaceholderText = "Command Goes Here"
 
 Toggles.Name = "Toggles"
 Toggles.Parent = background_2
@@ -2921,7 +2921,7 @@ reference = (function()
 	inviteButton.MouseButton1Click:Connect(function()
 		local func = setclipboard or toclipboard or set_clipboard or (Clipboard and Clipboard.set)
 		if func then
-			func("https://discord.io/infiniteyield")
+			func("No discord link")
 			inviteButton.Text = "Copied"
 		else
 			inviteButton.Text = "No Clipboard Function, type out the link"
@@ -2930,7 +2930,7 @@ reference = (function()
 		lastPress = pressTime
 		wait(2)
 		if lastPress ~= pressTime then return end
-		inviteButton.Text = "Copy Discord Invite Link (https://discord.io/infiniteyield)"
+		inviteButton.Text = "Copy Discord Invite Link (Told you)"
 	end)
 	dragGUI(main)
 	main.Parent = PARENT
@@ -2974,10 +2974,10 @@ nosaves = false
 local loadedEventData = nil
 function saves()
 	if writefileExploit() then
-		if pcall(function() readfile("IY_FE.iy") end) then
-			if readfile("IY_FE.iy") ~= nil then
+		if pcall(function() readfile("NugzyIY.iy") end) then
+			if readfile("NugzyIY.iy") ~= nil then
 				local success, response = pcall(function()
-					local json = game:GetService("HttpService"):JSONDecode(readfile("IY_FE.iy"))
+					local json = game:GetService("HttpService"):JSONDecode(readfile("NugzyIY.iy"))
 					if json.prefix ~= nil then prefix = json.prefix else prefix = ';' end
 					if json.StayOpen ~= nil then StayOpen = json.StayOpen else StayOpen = false end
 					if json.keepIY ~= nil then KeepInfYield = json.keepIY else KeepInfYield = false end
@@ -2999,19 +2999,19 @@ function saves()
 				if not success then
 					warn("Save Json Error:", response)
 					warn("Overwriting Save File")
-					writefileCooldown("IY_FE.iy", defaults)
+					writefileCooldown("NugzyIY.iy", defaults)
 					wait()
 					saves()
 				end
 			else
-				writefileCooldown("IY_FE.iy", defaults)
+				writefileCooldown("NugzyIY.iy", defaults)
 				wait()
 				saves()
 			end
 		else
-			writefileCooldown("IY_FE.iy", defaults)
+			writefileCooldown("NugzyIY.iy", defaults)
 			wait()
-			if pcall(function() readfile("IY_FE.iy") end) then
+			if pcall(function() readfile("NugzyIY.iy") end) then
 				saves()
 			else
 				nosaves = true
@@ -3139,7 +3139,7 @@ function updatesaves()
 			currentScroll = {currentScroll.R,currentScroll.G,currentScroll.B};
 			eventBinds = eventEditor.SaveData()
 		}
-		writefileCooldown("IY_FE.iy", game:GetService("HttpService"):JSONEncode(update))
+		writefileCooldown("NugzyIY.iy", game:GetService("HttpService"):JSONEncode(update))
 	end
 end
 
@@ -3970,7 +3970,7 @@ SaveChatlogs.MouseButton1Down:Connect(function()
 		if #scroll_2:GetChildren() > 0 then
 			notify("Loading",'Hold on a sec')
 			local placeName = CleanFileName(game:GetService('MarketplaceService'):GetProductInfo(game.PlaceId).Name)
-			local writelogs = '-- Infinite Yield Chat logs for "'..placeName..'"\n'
+			local writelogs = '-- NugzyIY is working on it... "'..placeName..'"\n'
 			for _, child in pairs(scroll_2:GetChildren()) do
 				writelogs = writelogs..'\n'..child.Text
 			end
@@ -4184,7 +4184,7 @@ end)
 
 PrefixBox:GetPropertyChangedSignal("Text"):Connect(function()
 	prefix = PrefixBox.Text
-	Cmdbar.PlaceholderText = "Command Bar ("..prefix..")"
+	Cmdbar.PlaceholderText = "Commands("..prefix..")"
 	updatesaves()
 end)
 
@@ -4413,7 +4413,7 @@ function autoComplete(str,curText)
 end
 
 CMDs = {}
-CMDs[#CMDs + 1] = {NAME = 'discord / support / help', DESC = 'Invite to the Infinite Yield support server.'}
+CMDs[#CMDs + 1] = {NAME = 'discord / support / help', DESC = 'Invite to the NugzyIY support server.'}
 CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads old Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX explorer'}
 CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens FrostHook Spy'}
@@ -6370,7 +6370,7 @@ game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
 		if KeepInfYield == true then
 			local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport
 			if queueteleport then
-				queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()")
+				queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/NugzyF/IT-Paste/master/source'))()")
 			end
 		end
 	end
@@ -6420,10 +6420,10 @@ end)
 addcmd('discord', {'support', 'help'}, function(args, speaker)
 	local http = game:GetService('HttpService') 
 	if toClipboard then
-		toClipboard('https://discord.com/invite/dYHag43eeU')
-		notify('Discord Invite', 'Copied to clipboard!\ndiscord.gg/dYHag43eeU')
+		toClipboard('No support server')
+		notify('Discord Invite', 'Copied to clipboard!\nNo support server ')
 	else
-		notify('Discord Invite', 'discord.gg/dYHag43eeU')
+		notify('Discord Invite', 'RIP')
 	end
 	local req = syn and syn.request or http and http.request or http_request or fluxus and fluxus.request or getgenv().request or request
 	if req then
@@ -7609,7 +7609,7 @@ addcmd('hideiy',{},function(args, speaker)
 	end
 	minimizeNum = 0
 	minimizeHolder()
-	notify('IY Hidden','You can press the prefix key to access the command bar')
+	notify('NugzyIY','You can press the prefix key to access the command bar')
 end)
 
 addcmd('showiy',{'unhideiy'},function(args, speaker)
@@ -10324,6 +10324,7 @@ addcmd('carpet',{},function(args, speaker)
 		end
 	else
 		notify('R6 Required','This command requires the r6 rig type')
+		notify('Yeah i donnt understand that shit too')
 	end
 end)
 
@@ -10700,6 +10701,7 @@ addcmd('split',{},function(args, speaker)
 		speaker.Character.UpperTorso.Waist:Destroy()
 	else
 		notify('R15 Required','This command requires the r15 rig type')
+		notify('bruh')
 	end
 end)
 
