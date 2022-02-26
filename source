@@ -840,13 +840,13 @@ table.insert(scroll,Toggles)
 
 Fly.Name = "Fly"
 Fly.Parent = Toggles
-Fly.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Fly.BorderSizePixel = 0
 Fly.Size = UDim2.new(0, 192, 0, 20)
 Fly.Font = Enum.Font.SourceSans
 Fly.TextSize = 14
 Fly.Text = "    Toggle Fly"
-Fly.TextColor3 = Color3.new(1, 1, 1)
+Fly.TextColor3 = Color3.fromRGB(2, 2, 2)
 Fly.TextXAlignment = Enum.TextXAlignment.Left
 Fly.ZIndex = 10
 table.insert(shade2,Fly)
@@ -854,7 +854,7 @@ table.insert(text1,Fly)
 
 Select_3.Name = "Select"
 Select_3.Parent = Fly
-Select_3.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Select_3.BorderSizePixel = 0
 Select_3.Position = UDim2.new(0, 152, 0, 0)
 Select_3.Size = UDim2.new(0, 40, 0, 20)
@@ -868,14 +868,14 @@ table.insert(text2,Select_3)
 
 Noclip.Name = "Noclip"
 Noclip.Parent = Toggles
-Noclip.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Noclip.BorderSizePixel = 0
 Noclip.Position = UDim2.new(0, 0, 0, 25)
 Noclip.Size = UDim2.new(0, 192, 0, 20)
 Noclip.Font = Enum.Font.SourceSans
 Noclip.TextSize = 14
 Noclip.Text = "    Toggle Noclip"
-Noclip.TextColor3 = Color3.new(1, 1, 1)
+Noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
 Noclip.TextXAlignment = Enum.TextXAlignment.Left
 Noclip.ZIndex = 10
 table.insert(shade2,Noclip)
@@ -883,28 +883,28 @@ table.insert(text1,Noclip)
 
 Select_4.Name = "Select"
 Select_4.Parent = Noclip
-Select_4.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Select_4.BorderSizePixel = 0
 Select_4.Position = UDim2.new(0, 152, 0, 0)
 Select_4.Size = UDim2.new(0, 40, 0, 20)
 Select_4.Font = Enum.Font.SourceSans
 Select_4.TextSize = 14
 Select_4.Text = "Add"
-Select_4.TextColor3 = Color3.new(0, 0, 0)
+Select_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 Select_4.ZIndex = 10
 table.insert(shade3,Select_4)
 table.insert(text2,Select_4)
 
 Float.Name = "Float"
 Float.Parent = Toggles
-Float.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Float.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Float.BorderSizePixel = 0
 Float.Position = UDim2.new(0, 0, 0, 50)
 Float.Size = UDim2.new(0, 192, 0, 20)
 Float.Font = Enum.Font.SourceSans
 Float.TextSize = 14
 Float.Text = "    Toggle Float"
-Float.TextColor3 = Color3.new(1, 1, 1)
+Float.TextColor3 = Color3.fromRGB(0, 0, 0)
 Float.TextXAlignment = Enum.TextXAlignment.Left
 Float.ZIndex = 10
 table.insert(shade2,Float)
@@ -912,7 +912,7 @@ table.insert(text1,Float)
 
 Select_5.Name = "Select"
 Select_5.Parent = Float
-Select_5.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Select_5.BorderSizePixel = 0
 Select_5.Position = UDim2.new(0, 152, 0, 0)
 Select_5.Size = UDim2.new(0, 40, 0, 20)
@@ -926,14 +926,14 @@ table.insert(text2,Select_5)
 
 ClickTP.Name = "Click TP"
 ClickTP.Parent = Toggles
-ClickTP.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+ClickTP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ClickTP.BorderSizePixel = 0
 ClickTP.Position = UDim2.new(0, 0, 0, 75)
 ClickTP.Size = UDim2.new(0, 192, 0, 20)
 ClickTP.Font = Enum.Font.SourceSans
 ClickTP.TextSize = 14
 ClickTP.Text = "    Click TP (Hold Key & Click)"
-ClickTP.TextColor3 = Color3.new(1, 1, 1)
+ClickTP.TextColor3 = Color3.fromRGB(0, 0, 0)
 ClickTP.TextXAlignment = Enum.TextXAlignment.Left
 ClickTP.ZIndex = 10
 table.insert(shade2,ClickTP)
@@ -941,7 +941,7 @@ table.insert(text1,ClickTP)
 
 Select_6.Name = "Select"
 Select_6.Parent = ClickTP
-Select_6.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Select_6.BorderSizePixel = 0
 Select_6.Position = UDim2.new(0, 152, 0, 0)
 Select_6.Size = UDim2.new(0, 40, 0, 20)
@@ -955,14 +955,14 @@ table.insert(text2,Select_6)
 
 ClickDelete.Name = "Click Delete"
 ClickDelete.Parent = Toggles
-ClickDelete.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+ClickDelete.BackgroundColor3 = Color3.fromRGB(249, 249, 255)
 ClickDelete.BorderSizePixel = 0
 ClickDelete.Position = UDim2.new(0, 0, 0, 100)
 ClickDelete.Size = UDim2.new(0, 192, 0, 20)
 ClickDelete.Font = Enum.Font.SourceSans
 ClickDelete.TextSize = 14
 ClickDelete.Text = "    Click Delete (Hold Key & Click)"
-ClickDelete.TextColor3 = Color3.new(1, 1, 1)
+ClickDelete.TextColor3 = Color3.fromRGB(0, 0, 0)
 ClickDelete.TextXAlignment = Enum.TextXAlignment.Left
 ClickDelete.ZIndex = 10
 table.insert(shade2,ClickDelete)
@@ -970,28 +970,28 @@ table.insert(text1,ClickDelete)
 
 Select_13.Name = "Select"
 Select_13.Parent = ClickDelete
-Select_13.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Select_13.BorderSizePixel = 0
 Select_13.Position = UDim2.new(0, 152, 0, 0)
 Select_13.Size = UDim2.new(0, 40, 0, 20)
 Select_13.Font = Enum.Font.SourceSans
 Select_13.TextSize = 14
 Select_13.Text = "Add"
-Select_13.TextColor3 = Color3.new(0, 0, 0)
+Select_13.TextColor3 = Color3.fromRGB(0, 0, 0)
 Select_13.ZIndex = 10
 table.insert(shade3,Select_13)
 table.insert(text2,Select_13) 
 
 Xray.Name = "Xray"
 Xray.Parent = Toggles
-Xray.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Xray.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Xray.BorderSizePixel = 0
 Xray.Position = UDim2.new(0, 0, 0, 125)
 Xray.Size = UDim2.new(0, 192, 0, 20)
 Xray.Font = Enum.Font.SourceSans
 Xray.TextSize = 14
 Xray.Text = "    Toggle Xray"
-Xray.TextColor3 = Color3.new(1, 1, 1)
+Xray.TextColor3 = Color3.fromRGB(0, 0, 0)
 Xray.TextXAlignment = Enum.TextXAlignment.Left
 Xray.ZIndex = 10
 table.insert(shade2,Xray)
@@ -999,7 +999,7 @@ table.insert(text1,Xray)
 
 Select_10.Name = "Select"
 Select_10.Parent = Xray
-Select_10.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Select_10.BorderSizePixel = 0
 Select_10.Position = UDim2.new(0, 152, 0, 0)
 Select_10.Size = UDim2.new(0, 40, 0, 20)
@@ -1013,14 +1013,14 @@ table.insert(text2,Select_10)
 
 Swim.Name = "Swim"
 Swim.Parent = Toggles
-Swim.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Swim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Swim.BorderSizePixel = 0
 Swim.Position = UDim2.new(0, 0, 0, 150)
 Swim.Size = UDim2.new(0, 192, 0, 20)
 Swim.Font = Enum.Font.SourceSans
 Swim.TextSize = 14
 Swim.Text = "    Toggle Swim"
-Swim.TextColor3 = Color3.new(1, 1, 1)
+Swim.TextColor3 = Color3.fromRGB(0, 0, 0)
 Swim.TextXAlignment = Enum.TextXAlignment.Left
 Swim.ZIndex = 10
 table.insert(shade2,Swim)
@@ -1028,7 +1028,7 @@ table.insert(text1,Swim)
 
 Select_11.Name = "Select"
 Select_11.Parent = Swim
-Select_11.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Select_11.BorderSizePixel = 0
 Select_11.Position = UDim2.new(0, 152, 0, 0)
 Select_11.Size = UDim2.new(0, 40, 0, 20)
@@ -1042,14 +1042,14 @@ table.insert(text2,Select_11)
 
 Fling.Name = "Fling"
 Fling.Parent = Toggles
-Fling.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Fling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Fling.BorderSizePixel = 0
 Fling.Position = UDim2.new(0, 0, 0, 175)
 Fling.Size = UDim2.new(0, 192, 0, 20)
 Fling.Font = Enum.Font.SourceSans
 Fling.TextSize = 14
 Fling.Text = "    Toggle Fling"
-Fling.TextColor3 = Color3.new(1, 1, 1)
+Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
 Fling.TextXAlignment = Enum.TextXAlignment.Left
 Fling.ZIndex = 10
 table.insert(shade2,Fling)
@@ -1057,7 +1057,7 @@ table.insert(text1,Fling)
 
 Select_12.Name = "Select"
 Select_12.Parent = Fling
-Select_12.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Select_12.BorderSizePixel = 0
 Select_12.Position = UDim2.new(0, 152, 0, 0)
 Select_12.Size = UDim2.new(0, 40, 0, 20)
@@ -1071,14 +1071,14 @@ table.insert(text2,Select_12)
 
 Invisible.Name = "Invisible"
 Invisible.Parent = Toggles
-Invisible.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Invisible.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Invisible.BorderSizePixel = 0
 Invisible.Position = UDim2.new(0, 0, 0, 200)
 Invisible.Size = UDim2.new(0, 192, 0, 20)
 Invisible.Font = Enum.Font.SourceSans
 Invisible.TextSize = 14
 Invisible.Text = "    Toggle Invisible"
-Invisible.TextColor3 = Color3.new(1, 1, 1)
+Invisible.TextColor3 = Color3.fromRGB(0, 0, 0)
 Invisible.TextXAlignment = Enum.TextXAlignment.Left
 Invisible.ZIndex = 10
 table.insert(shade2,Invisible)
@@ -1086,7 +1086,7 @@ table.insert(text1,Invisible)
 
 Select_14.Name = "Select"
 Select_14.Parent = Invisible
-Select_14.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_14.BackgroundColor3 = Color3.fromRGB(250, 250, 255)
 Select_14.BorderSizePixel = 0
 Select_14.Position = UDim2.new(0, 152, 0, 0)
 Select_14.Size = UDim2.new(0, 40, 0, 20)
@@ -1100,14 +1100,14 @@ table.insert(text2,Select_14)
 
 Vehiclefly.Name = "VehicleFly"
 Vehiclefly.Parent = Toggles
-Vehiclefly.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Vehiclefly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Vehiclefly.BorderSizePixel = 0
 Vehiclefly.Position = UDim2.new(0, 0, 0, 225)
 Vehiclefly.Size = UDim2.new(0, 192, 0, 20)
 Vehiclefly.Font = Enum.Font.SourceSans
 Vehiclefly.TextSize = 14
 Vehiclefly.Text = "    Toggle VehicleFly"
-Vehiclefly.TextColor3 = Color3.new(1, 1, 1)
+Vehiclefly.TextColor3 = Color3.fromRGB(0, 0, 0)
 Vehiclefly.TextXAlignment = Enum.TextXAlignment.Left
 Vehiclefly.ZIndex = 10
 table.insert(shade2,Vehiclefly)
@@ -1115,7 +1115,7 @@ table.insert(text1,Vehiclefly)
 
 Select_15.Name = "Select"
 Select_15.Parent = Vehiclefly
-Select_15.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Select_15.BorderSizePixel = 0
 Select_15.Position = UDim2.new(0, 152, 0, 0)
 Select_15.Size = UDim2.new(0, 40, 0, 20)
@@ -1129,14 +1129,14 @@ table.insert(text2,Select_15)
 
 VehicleNoclip.Name = "VehicleNoclip"
 VehicleNoclip.Parent = Toggles
-VehicleNoclip.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+VehicleNoclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VehicleNoclip.BorderSizePixel = 0
 VehicleNoclip.Position = UDim2.new(0, 0, 0, 250)
 VehicleNoclip.Size = UDim2.new(0, 192, 0, 20)
 VehicleNoclip.Font = Enum.Font.SourceSans
 VehicleNoclip.TextSize = 14
 VehicleNoclip.Text = "    Toggle VehicleNoclip"
-VehicleNoclip.TextColor3 = Color3.new(1, 1, 1)
+VehicleNoclip.TextColor3 = Color3.fromRGB(0, 0, 0)
 VehicleNoclip.TextXAlignment = Enum.TextXAlignment.Left
 VehicleNoclip.ZIndex = 10
 table.insert(shade2,VehicleNoclip)
@@ -1144,7 +1144,7 @@ table.insert(text1,VehicleNoclip)
 
 Select_16.Name = "Select"
 Select_16.Parent = VehicleNoclip
-Select_16.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Select_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Select_16.BorderSizePixel = 0
 Select_16.Position = UDim2.new(0, 152, 0, 0)
 Select_16.Size = UDim2.new(0, 40, 0, 20)
@@ -1158,7 +1158,7 @@ table.insert(text2,Select_16)
 
 shadow_2.Name = "shadow"
 shadow_2.Parent = KeybindEditor
-shadow_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+shadow_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 shadow_2.BorderSizePixel = 0
 shadow_2.Size = UDim2.new(0, 360, 0, 20)
 shadow_2.ZIndex = 10
@@ -1172,7 +1172,7 @@ PopupText_2.ZIndex = 10
 PopupText_2.Font = Enum.Font.SourceSans
 PopupText_2.TextSize = 14
 PopupText_2.Text = "Set Keybinds"
-PopupText_2.TextColor3 = Color3.new(1, 1, 1)
+PopupText_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 PopupText_2.TextWrapped = true
 table.insert(text1,PopupText_2)
 
@@ -1185,7 +1185,7 @@ Exit_2.Text = ""
 Exit_2.ZIndex = 10
 
 ExitImage_2.Parent = Exit_2
-ExitImage_2.BackgroundColor3 = Color3.new(1, 1, 1)
+ExitImage_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ExitImage_2.BackgroundTransparency = 1
 ExitImage_2.Position = UDim2.new(0, 5, 0, 5)
 ExitImage_2.Size = UDim2.new(0, 10, 0, 10)
@@ -1204,42 +1204,42 @@ table.insert(shade1,PositionsFrame)
 
 Close_3.Name = "Close"
 Close_3.Parent = PositionsFrame
-Close_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close_3.BorderSizePixel = 0
 Close_3.Position = UDim2.new(0, 205, 0, 150)
 Close_3.Size = UDim2.new(0, 40, 0, 20)
 Close_3.Font = Enum.Font.SourceSans
 Close_3.TextSize = 14
 Close_3.Text = "Close"
-Close_3.TextColor3 = Color3.new(1, 1, 1)
+Close_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 Close_3.ZIndex = 10
 table.insert(shade2,Close_3)
 table.insert(text1,Close_3)
 
 Delete_5.Name = "Delete"
 Delete_5.Parent = PositionsFrame
-Delete_5.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Delete_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Delete_5.BorderSizePixel = 0
 Delete_5.Position = UDim2.new(0, 50, 0, 150)
 Delete_5.Size = UDim2.new(0, 40, 0, 20)
 Delete_5.Font = Enum.Font.SourceSans
 Delete_5.TextSize = 14
 Delete_5.Text = "Clear"
-Delete_5.TextColor3 = Color3.new(1, 1, 1)
+Delete_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 Delete_5.ZIndex = 10
 table.insert(shade2,Delete_5)
 table.insert(text1,Delete_5)
 
 Part.Name = "PartGoto"
 Part.Parent = PositionsFrame
-Part.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Part.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Part.BorderSizePixel = 0
 Part.Position = UDim2.new(0, 5, 0, 150)
 Part.Size = UDim2.new(0, 40, 0, 20)
 Part.Font = Enum.Font.SourceSans
 Part.TextSize = 14
 Part.Text = "Part"
-Part.TextColor3 = Color3.new(1, 1, 1)
+Part.TextColor3 = Color3.fromRGB(0, 0, 0)
 Part.ZIndex = 10
 table.insert(shade2,Part)
 table.insert(text1,Part)
@@ -1251,7 +1251,7 @@ Holder_4.BorderSizePixel = 0
 Holder_4.Position = UDim2.new(0, 0, 0, 0)
 Holder_4.Selectable = false
 Holder_4.Size = UDim2.new(0, 250, 0, 145)
-Holder_4.ScrollBarImageColor3 = Color3.fromRGB(78,78,79)
+Holder_4.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 0)
 Holder_4.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 Holder_4.CanvasSize = UDim2.new(0, 0, 0, 0)
 Holder_4.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
@@ -1262,7 +1262,7 @@ Holder_4.ZIndex = 10
 
 Example_4.Name = "Example"
 Example_4.Parent = PositionsFrame
-Example_4.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Example_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Example_4.BorderSizePixel = 0
 Example_4.Size = UDim2.new(0, 10, 0, 20)
 Example_4.Visible = false
@@ -1272,14 +1272,14 @@ table.insert(shade2,Example_4)
 
 Text_5.Name = "Text"
 Text_5.Parent = Example_4
-Text_5.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Text_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Text_5.BorderSizePixel = 0
 Text_5.Position = UDim2.new(0, 10, 0, 0)
 Text_5.Size = UDim2.new(0, 240, 0, 20)
 Text_5.Font = Enum.Font.SourceSans
 Text_5.TextSize = 14
 Text_5.Text = "Position"
-Text_5.TextColor3 = Color3.new(1, 1, 1)
+Text_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 Text_5.TextXAlignment = Enum.TextXAlignment.Left
 Text_5.ZIndex = 10
 table.insert(shade2,Text_5)
@@ -1287,7 +1287,7 @@ table.insert(text1,Text_5)
 
 Delete_6.Name = "Delete"
 Delete_6.Parent = Text_5
-Delete_6.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Delete_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Delete_6.BorderSizePixel = 0
 Delete_6.Position = UDim2.new(0, 200, 0, 0)
 Delete_6.Size = UDim2.new(0, 40, 0, 20)
@@ -1301,7 +1301,7 @@ table.insert(text2,Delete_6)
 
 TP.Name = "TP"
 TP.Parent = Text_5
-TP.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+TP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TP.BorderSizePixel = 0
 TP.Position = UDim2.new(0, 155, 0, 0)
 TP.Size = UDim2.new(0, 40, 0, 20)
@@ -1316,7 +1316,7 @@ table.insert(text2,TP)
 AliasesFrame.Name = "AliasesFrame"
 AliasesFrame.Parent = Settings
 AliasesFrame.Active = true
-AliasesFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+AliasesFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 AliasesFrame.BorderSizePixel = 0
 AliasesFrame.Position = UDim2.new(0, 0, 0, 175)
 AliasesFrame.Size = UDim2.new(0, 250, 0, 175)
@@ -1325,28 +1325,28 @@ table.insert(shade1,AliasesFrame)
 
 Close_2.Name = "Close"
 Close_2.Parent = AliasesFrame
-Close_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close_2.BorderSizePixel = 0
 Close_2.Position = UDim2.new(0, 205, 0, 150)
 Close_2.Size = UDim2.new(0, 40, 0, 20)
 Close_2.Font = Enum.Font.SourceSans
 Close_2.TextSize = 14
 Close_2.Text = "Close"
-Close_2.TextColor3 = Color3.new(1, 1, 1)
+Close_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Close_2.ZIndex = 10
 table.insert(shade2,Close_2)
 table.insert(text1,Close_2)
 
 Delete_3.Name = "Delete"
 Delete_3.Parent = AliasesFrame
-Delete_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Delete_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Delete_3.BorderSizePixel = 0
 Delete_3.Position = UDim2.new(0, 5, 0, 150)
 Delete_3.Size = UDim2.new(0, 40, 0, 20)
 Delete_3.Font = Enum.Font.SourceSans
 Delete_3.TextSize = 14
 Delete_3.Text = "Clear"
-Delete_3.TextColor3 = Color3.new(1, 1, 1)
+Delete_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 Delete_3.ZIndex = 10
 table.insert(shade2,Delete_3)
 table.insert(text1,Delete_3)
@@ -1357,7 +1357,7 @@ Holder_3.BackgroundTransparency = 1
 Holder_3.BorderSizePixel = 0
 Holder_3.Position = UDim2.new(0, 0, 0, 0)
 Holder_3.Size = UDim2.new(0, 250, 0, 145)
-Holder_3.ScrollBarImageColor3 = Color3.fromRGB(78,78,79)
+Holder_3.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 0)
 Holder_3.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 Holder_3.CanvasSize = UDim2.new(0, 0, 0, 0)
 Holder_3.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
@@ -1368,7 +1368,7 @@ Holder_3.ZIndex = 10
 
 Example_3.Name = "Example"
 Example_3.Parent = AliasesFrame
-Example_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Example_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Example_3.BorderSizePixel = 0
 Example_3.Size = UDim2.new(0, 10, 0, 20)
 Example_3.Visible = false
@@ -1377,14 +1377,14 @@ table.insert(shade2,Example_3)
 
 Text_4.Name = "Text"
 Text_4.Parent = Example_3
-Text_4.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Text_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Text_4.BorderSizePixel = 0
 Text_4.Position = UDim2.new(0, 10, 0, 0)
 Text_4.Size = UDim2.new(0, 240, 0, 20)
 Text_4.Font = Enum.Font.SourceSans
 Text_4.TextSize = 14
 Text_4.Text = "honk"
-Text_4.TextColor3 = Color3.new(1, 1, 1)
+Text_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 Text_4.TextXAlignment = Enum.TextXAlignment.Left
 Text_4.ZIndex = 10
 table.insert(shade2,Text_4)
@@ -1392,7 +1392,7 @@ table.insert(text1,Text_4)
 
 Delete_4.Name = "Delete"
 Delete_4.Parent = Text_4
-Delete_4.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Delete_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Delete_4.BorderSizePixel = 0
 Delete_4.Position = UDim2.new(0, 200, 0, 0)
 Delete_4.Size = UDim2.new(0, 40, 0, 20)
@@ -1407,7 +1407,7 @@ table.insert(text2,Delete_4)
 PluginsFrame.Name = "PluginsFrame"
 PluginsFrame.Parent = Settings
 PluginsFrame.Active = true
-PluginsFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+PluginsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 PluginsFrame.BorderSizePixel = 0
 PluginsFrame.Position = UDim2.new(0, 0, 0, 175)
 PluginsFrame.Size = UDim2.new(0, 250, 0, 175)
@@ -1416,28 +1416,28 @@ table.insert(shade1,PluginsFrame)
 
 Close_4.Name = "Close"
 Close_4.Parent = PluginsFrame
-Close_4.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Close_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close_4.BorderSizePixel = 0
 Close_4.Position = UDim2.new(0, 205, 0, 150)
 Close_4.Size = UDim2.new(0, 40, 0, 20)
 Close_4.Font = Enum.Font.SourceSans
 Close_4.TextSize = 14
 Close_4.Text = "Close"
-Close_4.TextColor3 = Color3.new(1, 1, 1)
+Close_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 Close_4.ZIndex = 10
 table.insert(shade2,Close_4)
 table.insert(text1,Close_4)
 
 Add_3.Name = "Add"
 Add_3.Parent = PluginsFrame
-Add_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Add_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Add_3.BorderSizePixel = 0
 Add_3.Position = UDim2.new(0, 5, 0, 150)
 Add_3.Size = UDim2.new(0, 40, 0, 20)
 Add_3.Font = Enum.Font.SourceSans
 Add_3.TextSize = 14
 Add_3.Text = "Add"
-Add_3.TextColor3 = Color3.new(1, 1, 1)
+Add_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 Add_3.ZIndex = 10
 table.insert(shade2,Add_3)
 table.insert(text1,Add_3)
@@ -1449,7 +1449,7 @@ Holder_5.BorderSizePixel = 0
 Holder_5.Position = UDim2.new(0, 0, 0, 0)
 Holder_5.Selectable = false
 Holder_5.Size = UDim2.new(0, 250, 0, 145)
-Holder_5.ScrollBarImageColor3 = Color3.fromRGB(78,78,79)
+Holder_5.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 0)
 Holder_5.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 Holder_5.CanvasSize = UDim2.new(0, 0, 0, 0)
 Holder_5.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
@@ -1460,7 +1460,7 @@ Holder_5.ZIndex = 10
 
 Example_5.Name = "Example"
 Example_5.Parent = PluginsFrame
-Example_5.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Example_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Example_5.BorderSizePixel = 0
 Example_5.Size = UDim2.new(0, 10, 0, 20)
 Example_5.Visible = false
@@ -1469,14 +1469,14 @@ table.insert(shade2,Example_5)
 
 Text_6.Name = "Text"
 Text_6.Parent = Example_5
-Text_6.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Text_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Text_6.BorderSizePixel = 0
 Text_6.Position = UDim2.new(0, 10, 0, 0)
 Text_6.Size = UDim2.new(0, 240, 0, 20)
 Text_6.Font = Enum.Font.SourceSans
 Text_6.TextSize = 14
 Text_6.Text = "F4 > Toggle Fly"
-Text_6.TextColor3 = Color3.new(1, 1, 1)
+Text_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 Text_6.TextXAlignment = Enum.TextXAlignment.Left
 Text_6.ZIndex = 10
 table.insert(shade2,Text_6)
@@ -1484,7 +1484,7 @@ table.insert(text1,Text_6)
 
 Delete_7.Name = "Delete"
 Delete_7.Parent = Text_6
-Delete_7.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Delete_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Delete_7.BorderSizePixel = 0
 Delete_7.Position = UDim2.new(0, 200, 0, 0)
 Delete_7.Size = UDim2.new(0, 40, 0, 20)
@@ -1508,7 +1508,7 @@ PluginEditor.ZIndex = 10
 background_3.Name = "background"
 background_3.Parent = PluginEditor
 background_3.Active = true
-background_3.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+background_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 background_3.BorderSizePixel = 0
 background_3.Position = UDim2.new(0, 0, 0, 20)
 background_3.Size = UDim2.new(0, 360, 0, 160)
@@ -1518,7 +1518,7 @@ table.insert(shade1,background_3)
 Dark_9.Name = "Dark"
 Dark_9.Parent = background_3
 Dark_9.Active = true
-Dark_9.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Dark_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Dark_9.BorderSizePixel = 0
 Dark_9.Position = UDim2.new(0, 222, 0, 0)
 Dark_9.Size = UDim2.new(0, 2, 0, 160)
@@ -1535,28 +1535,28 @@ Img.ZIndex = 10
 
 AddPlugin.Name = "AddPlugin"
 AddPlugin.Parent = background_3
-AddPlugin.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+AddPlugin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 AddPlugin.BorderSizePixel = 0
 AddPlugin.Position = UDim2.new(0, 235, 0, 100)
 AddPlugin.Size = UDim2.new(0, 115, 0, 50)
 AddPlugin.Font = Enum.Font.SourceSans
 AddPlugin.TextSize = 14
 AddPlugin.Text = "Add Plugin"
-AddPlugin.TextColor3 = Color3.new(1, 1, 1)
+AddPlugin.TextColor3 = Color3.fromRGB(0, 0, 0)
 AddPlugin.ZIndex = 10
 table.insert(shade2,AddPlugin)
 table.insert(text1,AddPlugin)
 
 FileName.Name = "FileName"
 FileName.Parent = background_3
-FileName.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+FileName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 FileName.BorderSizePixel = 0
 FileName.Position = UDim2.new(0.028, 0, 0.625, 0)
 FileName.Size = UDim2.new(0, 200, 0, 50)
 FileName.Font = Enum.Font.SourceSans
 FileName.TextSize = 14
 FileName.Text = "Plugin File Name"
-FileName.TextColor3 = Color3.new(1, 1, 1)
+FileName.TextColor3 = Color3.fromRGB(0, 0, 0)
 FileName.ZIndex = 10
 table.insert(shade2,FileName)
 table.insert(text1,FileName)
@@ -1570,7 +1570,7 @@ About.Size = UDim2.new(0, 187, 0, 49)
 About.Font = Enum.Font.SourceSans
 About.TextSize = 14
 About.Text = "Plugins are .iy files and should be located in the 'workspace' folder of your exploit."
-About.TextColor3 = Color3.fromRGB(255, 255, 255)
+About.TextColor3 = Color3.fromRGB(0, 0, 0)
 About.TextWrapped = true
 About.TextYAlignment = Enum.TextYAlignment.Top
 About.ZIndex = 10
@@ -1585,7 +1585,7 @@ Directions_2.Size = UDim2.new(0, 187, 0, 49)
 Directions_2.Font = Enum.Font.SourceSans
 Directions_2.TextSize = 14
 Directions_2.Text = "Type the name of the plugin file you want to add below."
-Directions_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Directions_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Directions_2.TextWrapped = true
 Directions_2.TextYAlignment = Enum.TextYAlignment.Top
 Directions_2.ZIndex = 10
@@ -1593,7 +1593,7 @@ table.insert(text1,Directions_2)
 
 shadow_3.Name = "shadow"
 shadow_3.Parent = PluginEditor
-shadow_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+shadow_3.BackgroundColor3 = Color3.fromRGB(248, 248, 255)
 shadow_3.BorderSizePixel = 0
 shadow_3.Size = UDim2.new(0, 360, 0, 20)
 shadow_3.ZIndex = 10
@@ -1607,7 +1607,7 @@ PopupText_3.ZIndex = 10
 PopupText_3.Font = Enum.Font.SourceSans
 PopupText_3.TextSize = 14
 PopupText_3.Text = "Add Plugins"
-PopupText_3.TextColor3 = Color3.new(1, 1, 1)
+PopupText_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 PopupText_3.TextWrapped = true
 table.insert(text1,PopupText_3)
 
@@ -1636,8 +1636,8 @@ AliasHint.Size = UDim2.new(0, 200, 0, 50)
 AliasHint.Font = Enum.Font.SourceSansItalic
 AliasHint.TextSize = 16
 AliasHint.Text = "Add aliases by using the 'addalias' command"
-AliasHint.TextColor3 = Color3.new(1, 1, 1)
-AliasHint.TextStrokeColor3 = Color3.new(1, 1, 1)
+AliasHint.TextColor3 = Color3.fromRGB(0, 0, 0)
+AliasHint.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
 AliasHint.TextWrapped = true
 AliasHint.ZIndex = 10
 table.insert(text1,AliasHint)
@@ -1651,8 +1651,8 @@ PluginsHint.Size = UDim2.new(0, 200, 0, 50)
 PluginsHint.Font = Enum.Font.SourceSansItalic
 PluginsHint.TextSize = 16
 PluginsHint.Text = "Download plugins from the IY Discord (discord.io/infiniteyield)"
-PluginsHint.TextColor3 = Color3.new(1, 1, 1)
-PluginsHint.TextStrokeColor3 = Color3.new(1, 1, 1)
+PluginsHint.TextColor3 = Color3.fromRGB(0, 0, 0)
+PluginsHint.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
 PluginsHint.TextWrapped = true
 PluginsHint.ZIndex = 10
 table.insert(text1,PluginsHint)
@@ -1666,8 +1666,8 @@ PositionsHint.Size = UDim2.new(0, 200, 0, 70)
 PositionsHint.Font = Enum.Font.SourceSansItalic
 PositionsHint.TextSize = 16
 PositionsHint.Text = "Use the 'swp' or 'setwaypoint' command to add a position using your character (NOTE: Part teleports will not save)"
-PositionsHint.TextColor3 = Color3.new(1, 1, 1)
-PositionsHint.TextStrokeColor3 = Color3.new(1, 1, 1)
+PositionsHint.TextColor3 = Color3.fromRGB(0, 0, 0)
+PositionsHint.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
 PositionsHint.TextWrapped = true
 PositionsHint.ZIndex = 10
 table.insert(text1,PositionsHint)
@@ -1683,7 +1683,7 @@ ToPartFrame.ZIndex = 10
 background_5.Name = "background"
 background_5.Parent = ToPartFrame
 background_5.Active = true
-background_5.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+background_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 background_5.BorderSizePixel = 0
 background_5.Position = UDim2.new(0, 0, 0, 20)
 background_5.Size = UDim2.new(0, 360, 0, 117)
@@ -1692,28 +1692,28 @@ table.insert(shade1,background_5)
 
 ChoosePart.Name = "ChoosePart"
 ChoosePart.Parent = background_5
-ChoosePart.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+ChoosePart.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ChoosePart.BorderSizePixel = 0
 ChoosePart.Position = UDim2.new(0, 100, 0, 55)
 ChoosePart.Size = UDim2.new(0, 75, 0, 30)
 ChoosePart.Font = Enum.Font.SourceSans
 ChoosePart.TextSize = 14
 ChoosePart.Text = "Select Part"
-ChoosePart.TextColor3 = Color3.new(1, 1, 1)
+ChoosePart.TextColor3 = Color3.fromRGB(0, 0, 0)
 ChoosePart.ZIndex = 10
 table.insert(shade2,ChoosePart)
 table.insert(text1,ChoosePart)
 
 CopyPath.Name = "CopyPath"
 CopyPath.Parent = background_5
-CopyPath.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+CopyPath.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CopyPath.BorderSizePixel = 0
 CopyPath.Position = UDim2.new(0, 185, 0, 55)
 CopyPath.Size = UDim2.new(0, 75, 0, 30)
 CopyPath.Font = Enum.Font.SourceSans
 CopyPath.TextSize = 14
 CopyPath.Text = "Copy Path"
-CopyPath.TextColor3 = Color3.new(1, 1, 1)
+CopyPath.TextColor3 = Color3.fromRGB(0, 0, 0)
 CopyPath.ZIndex = 10
 table.insert(shade2,CopyPath)
 table.insert(text1,CopyPath)
@@ -1727,7 +1727,7 @@ Directions_4.Size = UDim2.new(0, 257, 0, 32)
 Directions_4.Font = Enum.Font.SourceSans
 Directions_4.TextSize = 14
 Directions_4.Text = 'Click on a part and then click the "Select Part" button below to set it as a teleport location'
-Directions_4.TextColor3 = Color3.new(1, 1, 1)
+Directions_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 Directions_4.TextWrapped = true
 Directions_4.TextYAlignment = Enum.TextYAlignment.Top
 Directions_4.ZIndex = 10
@@ -1742,7 +1742,7 @@ Path.Size = UDim2.new(0, 360, 0, 16)
 Path.Font = Enum.Font.SourceSansItalic
 Path.TextSize = 14
 Path.Text = ""
-Path.TextColor3 = Color3.new(1, 1, 1)
+Path.TextColor3 = Color3.fromRGB(0, 0, 0)
 Path.TextScaled = true
 Path.TextWrapped = true
 Path.TextYAlignment = Enum.TextYAlignment.Top
@@ -1751,7 +1751,7 @@ table.insert(text1,Path)
 
 shadow_4.Name = "shadow"
 shadow_4.Parent = ToPartFrame
-shadow_4.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+shadow_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 shadow_4.BorderSizePixel = 0
 shadow_4.Size = UDim2.new(0, 360, 0, 20)
 shadow_4.ZIndex = 10
@@ -1765,7 +1765,7 @@ PopupText_5.ZIndex = 10
 PopupText_5.Font = Enum.Font.SourceSans
 PopupText_5.TextSize = 14
 PopupText_5.Text = "Teleport to Part"
-PopupText_5.TextColor3 = Color3.new(1, 1, 1)
+PopupText_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 PopupText_5.TextWrapped = true
 table.insert(text1,PopupText_5)
 
@@ -1826,7 +1826,7 @@ PopupText.ZIndex = 10
 PopupText.Font = Enum.Font.SourceSans
 PopupText.FontSize = Enum.FontSize.Size14
 PopupText.Text = "Logs"
-PopupText.TextColor3 = Color3.new(1, 1, 1)
+PopupText.TextColor3 = Color3.fromRGB(0, 0, 0)
 PopupText.TextWrapped = true
 table.insert(text1,PopupText)
 
@@ -1876,7 +1876,7 @@ Clear.ZIndex = 10
 Clear.Font = Enum.Font.SourceSans
 Clear.FontSize = Enum.FontSize.Size14
 Clear.Text = "Clear"
-Clear.TextColor3 = Color3.new(1, 1, 1)
+Clear.TextColor3 = Color3.fromRGB(0, 0, 0)
 table.insert(shade2,Clear)
 table.insert(text1,Clear)
 
@@ -1890,7 +1890,7 @@ SaveChatlogs.ZIndex = 10
 SaveChatlogs.Font = Enum.Font.SourceSans
 SaveChatlogs.FontSize = Enum.FontSize.Size14
 SaveChatlogs.Text = "Save To .txt"
-SaveChatlogs.TextColor3 = Color3.new(1, 1, 1)
+SaveChatlogs.TextColor3 = Color3.fromRGB(0, 0, 0)
 table.insert(shade2,SaveChatlogs)
 table.insert(text1,SaveChatlogs)
 
@@ -1904,7 +1904,7 @@ Toggle.ZIndex = 10
 Toggle.Font = Enum.Font.SourceSans
 Toggle.FontSize = Enum.FontSize.Size14
 Toggle.Text = "Disabled"
-Toggle.TextColor3 = Color3.new(1, 1, 1)
+Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
 table.insert(shade2,Toggle)
 table.insert(text1,Toggle)
 
@@ -1943,7 +1943,7 @@ Toggle_2.ZIndex = 10
 Toggle_2.Font = Enum.Font.SourceSans
 Toggle_2.FontSize = Enum.FontSize.Size14
 Toggle_2.Text = "Disabled"
-Toggle_2.TextColor3 = Color3.new(1, 1, 1)
+Toggle_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 table.insert(shade2,Toggle_2)
 table.insert(text1,Toggle_2)
 
@@ -1957,7 +1957,7 @@ Clear_2.ZIndex = 10
 Clear_2.Font = Enum.Font.SourceSans
 Clear_2.FontSize = Enum.FontSize.Size14
 Clear_2.Text = "Clear"
-Clear_2.TextColor3 = Color3.new(1, 1, 1)
+Clear_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 table.insert(shade2,Clear_2)
 table.insert(text1,Clear_2)
 
@@ -1985,7 +1985,7 @@ selectChat.ZIndex = 10
 selectChat.Font = Enum.Font.SourceSans
 selectChat.FontSize = Enum.FontSize.Size14
 selectChat.Text = "Chat Logs"
-selectChat.TextColor3 = Color3.new(1, 1, 1)
+selectChat.TextColor3 = Color3.fromRGB(0, 0, 0)
 table.insert(shade2,selectChat)
 table.insert(text1,selectChat)
 
@@ -1999,7 +1999,7 @@ selectJoin.ZIndex = 10
 selectJoin.Font = Enum.Font.SourceSans
 selectJoin.FontSize = Enum.FontSize.Size14
 selectJoin.Text = "Join Logs"
-selectJoin.TextColor3 = Color3.new(1, 1, 1)
+selectJoin.TextColor3 = Color3.fromRGB(0, 0, 0)
 table.insert(shade3,selectJoin)
 table.insert(text1,selectJoin)
 
