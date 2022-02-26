@@ -202,7 +202,7 @@ scroll = {}
 Holder.Name = randomString()
 Holder.Parent = PARENT
 Holder.Active = true
-Holder.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Holder.BackgroundColor3 = Color3.fromRGB(242, 242, 255)
 Holder.BorderSizePixel = 0
 Holder.Position = UDim2.new(1, -250, 1, -220)
 Holder.Size = UDim2.new(0, 250, 0, 220)
@@ -212,13 +212,13 @@ table.insert(shade2,Holder)
 Title.Name = "Title"
 Title.Parent = Holder
 Title.Active = true
-Title.BackgroundColor3 = Color3.fromRGB(36,36,37)
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
 Title.Text = "NugzyYield v"..ver
-Title.TextColor3 = Color3.new(1, 1, 1)
+Title.TextColor3 = Color3.fromRGB(2, 0, 0)
 Title.ZIndex = 10
 table.insert(shade1,Title)
 table.insert(text1,Title)
@@ -242,7 +242,7 @@ Cmdbar.Size = UDim2.new(0, 240, 0, 25)
 Cmdbar.Font = Enum.Font.SourceSans
 Cmdbar.TextSize = 18
 Cmdbar.TextXAlignment = Enum.TextXAlignment.Left
-Cmdbar.TextColor3 = Color3.new(1, 1, 1)
+Cmdbar.TextColor3 = Color3.fromRGB(0, 0, 0)
 Cmdbar.Text = ""
 Cmdbar.ZIndex = 10
 Cmdbar.PlaceholderText = "Enter CMDS"
@@ -253,7 +253,7 @@ CMDsF.BackgroundTransparency = 1
 CMDsF.BorderSizePixel = 0
 CMDsF.Position = UDim2.new(0, 5, 0, 45)
 CMDsF.Size = UDim2.new(0, 245, 0, 175)
-CMDsF.ScrollBarImageColor3 = Color3.fromRGB(78,78,79)
+CMDsF.ScrollBarImageColor3 = Color3.fromRGB(255, 4, 4)
 CMDsF.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 CMDsF.CanvasSize = UDim2.new(0, 0, 0, 0)
 CMDsF.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
@@ -285,7 +285,7 @@ ReferenceButton.ZIndex = 10
 Settings.Name = "Settings"
 Settings.Parent = Holder
 Settings.Active = true
-Settings.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Settings.BorderSizePixel = 0
 Settings.Position = UDim2.new(0, 0, 0, 220)
 Settings.Size = UDim2.new(0, 250, 0, 175)
@@ -298,7 +298,7 @@ SettingsHolder.Parent = Settings
 SettingsHolder.BackgroundTransparency = 1
 SettingsHolder.BorderSizePixel = 0
 SettingsHolder.Size = UDim2.new(1,0,1,0)
-SettingsHolder.ScrollBarImageColor3 = Color3.fromRGB(78,78,79)
+SettingsHolder.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 0)
 SettingsHolder.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 SettingsHolder.CanvasSize = UDim2.new(0, 0, 0, 235)
 SettingsHolder.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
@@ -310,7 +310,7 @@ table.insert(scroll,SettingsHolder)
 
 Prefix.Name = "Prefix"
 Prefix.Parent = SettingsHolder
-Prefix.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Prefix.BackgroundColor3 = Color3.fromRGB(251, 251, 255)
 Prefix.BorderSizePixel = 0
 Prefix.BackgroundTransparency = 1
 Prefix.Position = UDim2.new(0, 5, 0, 5)
@@ -318,7 +318,7 @@ Prefix.Size = UDim2.new(1, -10, 0, 20)
 Prefix.Font = Enum.Font.SourceSans
 Prefix.TextSize = 14
 Prefix.Text = "Prefix"
-Prefix.TextColor3 = Color3.new(1, 1, 1)
+Prefix.TextColor3 = Color3.fromRGB(5, 0, 0)
 Prefix.TextXAlignment = Enum.TextXAlignment.Left
 Prefix.ZIndex = 10
 table.insert(shade2,Prefix)
@@ -326,7 +326,7 @@ table.insert(text1,Prefix)
 
 PrefixBox.Name = "PrefixBox"
 PrefixBox.Parent = Prefix
-PrefixBox.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+PrefixBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 PrefixBox.BorderSizePixel = 0
 PrefixBox.Position = UDim2.new(1, -20, 0, 0)
 PrefixBox.Size = UDim2.new(0, 20, 0, 20)
@@ -340,7 +340,7 @@ table.insert(text2,PrefixBox)
 
 function makeSettingsButton(name,iconID,off)
 	local button = Instance.new("TextButton")
-	button.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+	button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	button.BorderSizePixel = 0
 	button.Position = UDim2.new(0,0,0,0)
 	button.Size = UDim2.new(1,0,0,25)
@@ -367,7 +367,7 @@ function makeSettingsButton(name,iconID,off)
 	label.Position = UDim2.new(0,28,0,0)
 	label.Size = UDim2.new(1,-28,1,0)
 	label.Font = Enum.Font.SourceSans
-	label.TextColor3 = Color3.new(1, 1, 1)
+	label.TextColor3 = Color3.fromRGB(0, 0, 0)
 	label.TextSize = 14
 	label.ZIndex = 10
 	label.TextXAlignment = Enum.TextXAlignment.Left
@@ -396,7 +396,7 @@ Aliases.Parent = SettingsHolder
 
 StayOpen.Name = "StayOpen"
 StayOpen.Parent = SettingsHolder
-StayOpen.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+StayOpen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 StayOpen.BorderSizePixel = 0
 StayOpen.BackgroundTransparency = 1
 StayOpen.Position = UDim2.new(0, 5, 0, 30)
@@ -404,7 +404,7 @@ StayOpen.Size = UDim2.new(1, -10, 0, 20)
 StayOpen.Font = Enum.Font.SourceSans
 StayOpen.TextSize = 14
 StayOpen.Text = "Dont Close the menu!"
-StayOpen.TextColor3 = Color3.new(1, 1, 1)
+StayOpen.TextColor3 = Color3.fromRGB(12, 12, 12)
 StayOpen.TextXAlignment = Enum.TextXAlignment.Left
 StayOpen.ZIndex = 10
 table.insert(shade2,StayOpen)
@@ -412,7 +412,7 @@ table.insert(text1,StayOpen)
 
 Button.Name = "Button"
 Button.Parent = StayOpen
-Button.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Button.BorderSizePixel = 0
 Button.Position = UDim2.new(1, -20, 0, 0)
 Button.Size = UDim2.new(0, 20, 0, 20)
@@ -421,7 +421,7 @@ table.insert(shade3,Button)
 
 On.Name = "On"
 On.Parent = Button
-On.BackgroundColor3 = Color3.fromRGB(150, 150, 151)
+On.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 On.BackgroundTransparency = 1
 On.BorderSizePixel = 0
 On.Position = UDim2.new(0, 2, 0, 2)
@@ -459,14 +459,14 @@ Example.Visible = false
 Example.Font = Enum.Font.SourceSans
 Example.TextSize = 18
 Example.Text = "Example"
-Example.TextColor3 = Color3.new(1, 1, 1)
+Example.TextColor3 = Color3.fromRGB(0, 0, 0)
 Example.TextXAlignment = Enum.TextXAlignment.Left
 Example.ZIndex = 10
 table.insert(text1,Example)
 
 Notification.Name = randomString()
 Notification.Parent = PARENT
-Notification.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+Notification.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Notification.BorderSizePixel = 0
 Notification.Position = UDim2.new(1, -500, 1, 20)
 Notification.Size = UDim2.new(0, 250, 0, 100)
@@ -475,13 +475,13 @@ table.insert(shade1,Notification)
 
 Title_2.Name = "Title"
 Title_2.Parent = Notification
-Title_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title_2.BorderSizePixel = 0
 Title_2.Size = UDim2.new(0, 250, 0, 20)
 Title_2.Font = Enum.Font.SourceSans
 Title_2.TextSize = 14
 Title_2.Text = "NOTIFY"
-Title_2.TextColor3 = Color3.new(1, 1, 1)
+Title_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Title_2.ZIndex = 10
 table.insert(shade2,Title_2)
 table.insert(text1,Title_2)
@@ -495,7 +495,7 @@ Text_2.Size = UDim2.new(0, 240, 0, 75)
 Text_2.Font = Enum.Font.SourceSans
 Text_2.TextSize = 16
 Text_2.Text = "NOTIFY"
-Text_2.TextColor3 = Color3.new(1, 1, 1)
+Text_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Text_2.TextWrapped = true
 Text_2.ZIndex = 10
 table.insert(text1,Text_2)
@@ -509,7 +509,7 @@ CloseButton.Text = ""
 CloseButton.ZIndex = 10
 
 CloseImage.Parent = CloseButton
-CloseImage.BackgroundColor3 = Color3.new(1, 1, 1)
+CloseImage.BackgroundColor3 = Color3.fromRGB(255, 248, 248)
 CloseImage.BackgroundTransparency = 1
 CloseImage.Position = UDim2.new(0, 5, 0, 5)
 CloseImage.Size = UDim2.new(0, 10, 0, 10)
@@ -534,7 +534,7 @@ PinImage.Image = "rbxassetid://6234691350"
 Tooltip.Name = randomString()
 Tooltip.Parent = PARENT
 Tooltip.Active = true
-Tooltip.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+Tooltip.BackgroundColor3 = Color3.fromRGB(251, 251, 255)
 Tooltip.BackgroundTransparency = 0.1
 Tooltip.BorderSizePixel = 0
 Tooltip.Size = UDim2.new(0, 200, 0, 96)
@@ -544,14 +544,14 @@ table.insert(shade1,Tooltip)
 
 Title_3.Name = "Title"
 Title_3.Parent = Tooltip
-Title_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title_3.BackgroundTransparency = 0.1
 Title_3.BorderSizePixel = 0
 Title_3.Size = UDim2.new(0, 200, 0, 20)
 Title_3.Font = Enum.Font.SourceSans
 Title_3.TextSize = 14
 Title_3.Text = ""
-Title_3.TextColor3 = Color3.new(1, 1, 1)
+Title_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 Title_3.TextTransparency = 0.1
 Title_3.ZIndex = 10
 table.insert(shade2,Title_3)
@@ -566,7 +566,7 @@ Description.Position = UDim2.new(0,10,0,18)
 Description.Font = Enum.Font.SourceSans
 Description.TextSize = 16
 Description.Text = ""
-Description.TextColor3 = Color3.new(1, 1, 1)
+Description.TextColor3 = Color3.fromRGB(0, 0, 0)
 Description.TextTransparency = 0.1
 Description.TextWrapped = true
 Description.ZIndex = 10
@@ -575,7 +575,7 @@ table.insert(text1,Description)
 IntroBackground.Name = "IntroBackground"
 IntroBackground.Parent = Holder
 IntroBackground.Active = true
-IntroBackground.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+IntroBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 IntroBackground.BorderSizePixel = 0
 IntroBackground.Position = UDim2.new(0, 0, 0, 45)
 IntroBackground.Size = UDim2.new(0, 250, 0, 175)
@@ -600,13 +600,13 @@ Credits.Size = UDim2.new(0, 250, 0, 20)
 Credits.Font = Enum.Font.SourceSansLight
 Credits.FontSize = Enum.FontSize.Size18
 Credits.Text = "Nugzy"
-Credits.TextColor3 = Color3.new(1, 1, 1)
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credits.ZIndex = 10
 
 KeybindsFrame.Name = "KeybindsFrame"
 KeybindsFrame.Parent = Settings
 KeybindsFrame.Active = true
-KeybindsFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+KeybindsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 KeybindsFrame.BorderSizePixel = 0
 KeybindsFrame.Position = UDim2.new(0, 0, 0, 175)
 KeybindsFrame.Size = UDim2.new(0, 250, 0, 175)
@@ -615,42 +615,42 @@ table.insert(shade1,KeybindsFrame)
 
 Close.Name = "Close"
 Close.Parent = KeybindsFrame
-Close.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close.BorderSizePixel = 0
 Close.Position = UDim2.new(0, 205, 0, 150)
 Close.Size = UDim2.new(0, 40, 0, 20)
 Close.Font = Enum.Font.SourceSans
 Close.TextSize = 14
 Close.Text = "Close"
-Close.TextColor3 = Color3.new(1, 1, 1)
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
 Close.ZIndex = 10
 table.insert(shade2,Close)
 table.insert(text1,Close)
 
 Add.Name = "Add"
 Add.Parent = KeybindsFrame
-Add.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Add.BackgroundColor3 = Color3.fromRGB(253, 253, 255)
 Add.BorderSizePixel = 0
 Add.Position = UDim2.new(0, 5, 0, 150)
 Add.Size = UDim2.new(0, 40, 0, 20)
 Add.Font = Enum.Font.SourceSans
 Add.TextSize = 14
 Add.Text = "Add"
-Add.TextColor3 = Color3.new(1, 1, 1)
+Add.TextColor3 = Color3.fromRGB(0, 0, 0)
 Add.ZIndex = 10
 table.insert(shade2,Add)
 table.insert(text1,Add)
 
 Delete.Name = "Delete"
 Delete.Parent = KeybindsFrame
-Delete.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Delete.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Delete.BorderSizePixel = 0
 Delete.Position = UDim2.new(0, 50, 0, 150)
 Delete.Size = UDim2.new(0, 40, 0, 20)
 Delete.Font = Enum.Font.SourceSans
 Delete.TextSize = 14
 Delete.Text = "Clear"
-Delete.TextColor3 = Color3.new(1, 1, 1)
+Delete.TextColor3 = Color3.fromRGB(0, 0, 0)
 Delete.ZIndex = 10
 table.insert(shade2,Delete)
 table.insert(text1,Delete)
@@ -661,7 +661,7 @@ Holder_2.BackgroundTransparency = 1
 Holder_2.BorderSizePixel = 0
 Holder_2.Position = UDim2.new(0, 0, 0, 0)
 Holder_2.Size = UDim2.new(0, 250, 0, 145)
-Holder_2.ScrollBarImageColor3 = Color3.fromRGB(78,78,79)
+Holder_2.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 0)
 Holder_2.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 Holder_2.CanvasSize = UDim2.new(0, 0, 0, 0)
 Holder_2.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
@@ -672,7 +672,7 @@ Holder_2.ZIndex = 10
 
 Example_2.Name = "Example"
 Example_2.Parent = KeybindsFrame
-Example_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Example_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Example_2.BorderSizePixel = 0
 Example_2.Size = UDim2.new(0, 10, 0, 20)
 Example_2.Visible = false
@@ -681,14 +681,14 @@ table.insert(shade2,Example_2)
 
 Text_3.Name = "Text"
 Text_3.Parent = Example_2
-Text_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Text_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Text_3.BorderSizePixel = 0
 Text_3.Position = UDim2.new(0, 10, 0, 0)
 Text_3.Size = UDim2.new(0, 240, 0, 20)
 Text_3.Font = Enum.Font.SourceSans
 Text_3.TextSize = 14
 Text_3.Text = "nom"
-Text_3.TextColor3 = Color3.new(1, 1, 1)
+Text_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 Text_3.TextXAlignment = Enum.TextXAlignment.Left
 Text_3.ZIndex = 10
 table.insert(shade2,Text_3)
@@ -696,7 +696,7 @@ table.insert(text1,Text_3)
 
 Delete_2.Name = "Delete"
 Delete_2.Parent = Text_3
-Delete_2.BackgroundColor3 = Color3.fromRGB(78, 78, 79)
+Delete_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Delete_2.BorderSizePixel = 0
 Delete_2.Position = UDim2.new(0, 200, 0, 0)
 Delete_2.Size = UDim2.new(0, 40, 0, 20)
@@ -719,7 +719,7 @@ KeybindEditor.ZIndex = 10
 background_2.Name = "background"
 background_2.Parent = KeybindEditor
 background_2.Active = true
-background_2.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+background_2.BackgroundColor3 = Color3.fromRGB(254, 254, 255)
 background_2.BorderSizePixel = 0
 background_2.Position = UDim2.new(0, 0, 0, 20)
 background_2.Size = UDim2.new(0, 360, 0, 185)
@@ -729,7 +729,7 @@ table.insert(shade1,background_2)
 Dark_4.Name = "Dark"
 Dark_4.Parent = background_2
 Dark_4.Active = true
-Dark_4.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Dark_4.BackgroundColor3 = Color3.fromRGB(250, 250, 255)
 Dark_4.BorderSizePixel = 0
 Dark_4.Position = UDim2.new(0, 135, 0, 0)
 Dark_4.Size = UDim2.new(0, 2, 0, 185)
@@ -745,7 +745,7 @@ Directions.Size = UDim2.new(0, 115, 0, 90)
 Directions.Font = Enum.Font.SourceSans
 Directions.TextSize = 14
 Directions.Text = "Click the button below and press a key/mouse button. Then select what you want to bind it to."
-Directions.TextColor3 = Color3.new(1, 1, 1)
+Directions.TextColor3 = Color3.fromRGB(0, 0, 0)
 Directions.TextWrapped = true
 Directions.TextYAlignment = Enum.TextYAlignment.Top
 Directions.ZIndex = 10
@@ -753,14 +753,14 @@ table.insert(text1,Directions)
 
 BindTo.Name = "BindTo"
 BindTo.Parent = background_2
-BindTo.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+BindTo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BindTo.BorderSizePixel = 0
 BindTo.Position = UDim2.new(0, 10, 0, 95)
 BindTo.Size = UDim2.new(0, 115, 0, 50)
 BindTo.Font = Enum.Font.SourceSans
 BindTo.TextSize = 16
 BindTo.Text = "Click to bind"
-BindTo.TextColor3 = Color3.new(1, 1, 1)
+BindTo.TextColor3 = Color3.fromRGB(0, 0, 0)
 BindTo.ZIndex = 10
 table.insert(shade2,BindTo)
 table.insert(text1,BindTo)
@@ -773,7 +773,7 @@ BindTrigger.Size = UDim2.new(0, 45, 0, 20)
 BindTrigger.Font = Enum.Font.SourceSans
 BindTrigger.TextSize = 14
 BindTrigger.Text = "Trigger:"
-BindTrigger.TextColor3 = Color3.new(1, 1, 1)
+BindTrigger.TextColor3 = Color3.fromRGB(0, 0, 0)
 BindTrigger.ZIndex = 10
 BindTrigger.TextXAlignment = Enum.TextXAlignment.Left
 BindTrigger.Parent = background_2
@@ -789,35 +789,35 @@ BindTriggerSelect.Size = UDim2.new(0, 65, 0, 20)
 BindTriggerSelect.Font = Enum.Font.SourceSans
 BindTriggerSelect.TextSize = 16
 BindTriggerSelect.Text = "KeyDown"
-BindTriggerSelect.TextColor3 = Color3.new(1, 1, 1)
+BindTriggerSelect.TextColor3 = Color3.new(0, 0, 0)
 BindTriggerSelect.ZIndex = 10
 table.insert(shade2,BindTriggerSelect)
 table.insert(text1,BindTriggerSelect)
 
 Add_2.Name = "Add"
 Add_2.Parent = background_2
-Add_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Add_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Add_2.BorderSizePixel = 0
 Add_2.Position = UDim2.new(0, 310, 0, 20)
 Add_2.Size = UDim2.new(0, 40, 0, 20)
 Add_2.Font = Enum.Font.SourceSans
 Add_2.TextSize = 14
 Add_2.Text = "Add"
-Add_2.TextColor3 = Color3.new(1, 1, 1)
+Add_2.TextColor3 = Color3.new(0, 0, 0)
 Add_2.ZIndex = 10
 table.insert(shade2,Add_2)
 table.insert(text1,Add_2)
 
 Cmdbar_2.Name = "Cmdbar"
 Cmdbar_2.Parent = background_2
-Cmdbar_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Cmdbar_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Cmdbar_2.BorderSizePixel = 0
 Cmdbar_2.Position = UDim2.new(0, 150, 0, 20)
 Cmdbar_2.Size = UDim2.new(0, 150, 0, 20)
 Cmdbar_2.Font = Enum.Font.SourceSans
 Cmdbar_2.TextSize = 14
 Cmdbar_2.TextXAlignment = Enum.TextXAlignment.Left
-Cmdbar_2.TextColor3 = Color3.new(1, 1, 1)
+Cmdbar_2.TextColor3 = Color3.new(0, 0, 0)
 Cmdbar_2.Text = ""
 Cmdbar_2.ZIndex = 10
 Cmdbar_2.PlaceholderText = "Command Goes Here"
@@ -828,7 +828,7 @@ Toggles.BackgroundTransparency = 1
 Toggles.BorderSizePixel = 0
 Toggles.Position = UDim2.new(0, 150, 0, 50)
 Toggles.Size = UDim2.new(0, 200, 0, 125)
-Toggles.ScrollBarImageColor3 = Color3.fromRGB(78,78,79)
+Toggles.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 0)
 Toggles.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 Toggles.CanvasSize = UDim2.new(0, 0, 0, 270)
 Toggles.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
@@ -12155,7 +12155,7 @@ IYMouse.Move:Connect(checkTT)
 task.spawn(function()
 	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/NugzyF/IY-Paste-/master/Version'))() end) then
 		if ver ~= Version then
-			notify('Outdated','Get the new version at infinite.yiff.gg')
+			notify('Outdated','')
 		end
 		if Announcement and Announcement ~= '' then
 			local AnnGUI = Instance.new("Frame")
